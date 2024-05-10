@@ -97,7 +97,7 @@ if [[ ${#not_installed_modules[@]} -gt 0 ]]; then
 
     if [[ $ANSWER = "yes" ]]; then
         for module in "${not_installed_modules[@]}"; do
-            if $pip_path install $module; then
+            if "$pip_path" install $module; then
                 SUCCESS "\`$module\` was installed successfully"
             else
                 FAILURE "\`$module\` was not installed"
