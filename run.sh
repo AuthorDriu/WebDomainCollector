@@ -114,7 +114,7 @@ fi
 
 py_path="$DIR_PATH/venv/bin/python"
 
-$py_path "$DIR_PATH/WebDomainCollector.py" $@
+"$py_path" "$DIR_PATH/WebDomainCollector.py" $@
 
 
 # Завершение работы виртуального окружения
