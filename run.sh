@@ -53,6 +53,7 @@ else
     else
         FAILURE "Python virtual environment was not created for some reason"
         QUESTION "Do you have python3 installed on your machine?"
+        QUESTION "Do you have venv module installed on your python?"
         exit 2
     fi
 fi
